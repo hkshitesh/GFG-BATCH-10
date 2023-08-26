@@ -8,9 +8,7 @@ int main()
 {
     int m=20;
     int n=10;
-
     int s=div(m,n);
-    printf("Multiplication is = %d",s);   
-
+    printf("Division is = %d",s);   
     return 0;
 }
