@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/GFG/BATCH 10/DAY 1/MyRepo",
-      "program": "d:/GFG/BATCH 10/DAY 1/MyRepo/build/Debug/outDebug",
+      "cwd": "c:/Users/hksharma/GFG-BATCH-10",
+      "program": "c:/Users/hksharma/GFG-BATCH-10/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
