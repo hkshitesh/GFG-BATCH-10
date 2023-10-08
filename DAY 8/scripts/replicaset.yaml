@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-web-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gfg
+  template:
+    metadata:
+      labels:
+        app: gfg
+    spec:
+      containers:
+      - name: my-web-container
+        image: hkshitesh/myrest

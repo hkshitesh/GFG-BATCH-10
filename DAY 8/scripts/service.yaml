@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-web-service
+spec:
+  selector:
+    app: gfg
+  ports:
+  - protocol: TCP
+    port: 8081
+    nodePort: 30005
+  type: NodePort

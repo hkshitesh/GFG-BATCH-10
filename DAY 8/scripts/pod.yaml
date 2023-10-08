@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-gfg-np-pod-2
+  namespace: gfg1
+  labels:
+    app: lblnginx
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
